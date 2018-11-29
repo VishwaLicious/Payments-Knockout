@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
@@ -91,6 +92,51 @@ Session ID: 20629f2247a48e91a3898730b94cc991
           </reporter-output>
         </test-method> <!-- tearDown -->
         <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="closeFramework" is-config="true" duration-ms="396" started-at="2018-11-29T05:31:19Z" finished-at="2018-11-29T05:31:19Z">
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="130979" started-at="2018-11-28T23:24:22Z" finished-at="2018-11-28T23:26:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="130979" started-at="2018-11-28T23:24:22Z" finished-at="2018-11-28T23:26:33Z">
+      <class name="in.licious.test.FishandSeafoodCreditAndDebitCards">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initFramework" is-config="true" duration-ms="173" started-at="2018-11-29T04:54:22Z" finished-at="2018-11-29T04:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFramework -->
+        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initGlobalConstants" is-config="true" duration-ms="2" started-at="2018-11-29T04:54:22Z" finished-at="2018-11-29T04:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalConstants -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="setUp" is-config="true" duration-ms="22362" started-at="2018-11-29T04:54:22Z" finished-at="2018-11-29T04:54:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void in.licious.test.FishandSeafoodCreditAndDebitCards.testfishandseafood() throws java.lang.ClassNotFoundException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testfishandseafood()[pri:26, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="testfishandseafood" duration-ms="108128" started-at="2018-11-29T04:54:44Z" finished-at="2018-11-29T04:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfishandseafood -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="tearDown" is-config="true" duration-ms="464" started-at="2018-11-29T04:56:33Z" finished-at="2018-11-29T04:56:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testfishandseafood status=SUCCESS method=FishandSeafoodCreditAndDebitCards.testfishandseafood()[pri:26, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="closeFramework" is-config="true" duration-ms="470" started-at="2018-11-29T04:56:37Z" finished-at="2018-11-29T04:56:37Z">
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeFramework -->

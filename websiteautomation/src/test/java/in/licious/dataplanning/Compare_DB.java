@@ -2,7 +2,10 @@ package in.licious.dataplanning;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+<<<<<<< HEAD
 import org.testng.annotations.Test;
+=======
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git
 
 import com.google.gson.JsonElement;
 

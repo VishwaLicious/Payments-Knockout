@@ -16,7 +16,11 @@ public class InitProperties {
 			// This is the file path for Windows OS	
 			//property.load(new FileReader(System.getProperty("user.dir")+"\\config\\"+fileName+".properties"));
 			
+<<<<<<< HEAD
 			// This is the filepath for MAC OS  and also added the Chromedriver for MAC OS
+=======
+			// This is the filepath for MAC OS
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git
 			property.load(new FileReader(System.getProperty("user.dir")+"/config/config.properties"));
 			
 			}

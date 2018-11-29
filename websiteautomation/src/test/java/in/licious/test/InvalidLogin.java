@@ -1,6 +1,7 @@
 package in.licious.test;
 
 import org.testng.annotations.Test;
+<<<<<<< HEAD
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -21,6 +22,26 @@ public class InvalidLogin extends BaseTest{
 		Helper.customWait(2);
 		signInpage.getLoactionTxtBox().sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
 		Assert.fail();
+=======
+import org.testng.AssertJUnit;
+import org.openqa.selenium.Keys;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import in.licious.pom.SignInPage;
+import in.licious.util.Helper;
+public class InvalidLogin extends BaseTest{
+
+	@Test
+	public void testInvalidLogin() throws InterruptedException{
+		SignInPage signInpage=new SignInPage(driver);
+		signInpage.getSelectLocation().click();
+		signInpage.getbengaluruDeliveryLocation().click();
+		signInpage.getLoactionTxtBox().sendKeys("Marathahalli");
+		Helper.customWait(2);
+		signInpage.getLoactionTxtBox().sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
+		AssertJUnit.fail();
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git
 	//	etest.log(LogStatus.,"Location is selected");
 //		List<WebElement> ele = driver.findElements(By.xpath("/html/body/div[1]/header/div/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/div[3]/div[1]/span"));
 //		System.out.println(ele.size());

@@ -3,8 +3,11 @@ package in.licious.dataplanning;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+<<<<<<< HEAD
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+=======
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;

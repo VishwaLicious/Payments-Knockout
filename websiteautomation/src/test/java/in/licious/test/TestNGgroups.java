@@ -2,7 +2,10 @@ package in.licious.test;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+<<<<<<< HEAD
 import org.testng.annotations.Test;
+=======
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git
 
 public class TestNGgroups {
 	

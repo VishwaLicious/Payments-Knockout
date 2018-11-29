@@ -6826,6 +6826,7 @@
 2018-11-29 04:54:22,541 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
 2018-11-29 04:54:44,576 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
 2018-11-29 04:56:33,506 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+<<<<<<< HEAD
 2018-11-29 05:23:56,660 - [in.licious.test.Chicken] - INFO - framework is initialised 
 2018-11-29 05:23:56,667 - [in.licious.test.Chicken] - INFO - chrome 
 2018-11-29 05:23:56,667 - [in.licious.test.Chicken] - INFO - http://web.licious.in 
@@ -6856,3 +6857,5 @@
 2018-11-29 05:29:45,891 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
 2018-11-29 05:30:00,200 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
 2018-11-29 05:31:19,204 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+=======
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git

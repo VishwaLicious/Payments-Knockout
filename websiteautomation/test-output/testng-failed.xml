@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="in.licious.test.FishandSeafoodCreditAndDebitCards">
         <methods>
           <include name="testfishandseafood"/>
@@ -13,6 +14,18 @@
           <include name="initGlobalConstants"/>
         </methods>
       </class> <!-- in.licious.test.FishandSeafoodCreditAndDebitCards -->
+=======
+      <class name="in.licious.test.FishandSeafoodSavedCards">
+        <methods>
+          <include name="testfishandseafood"/>
+          <include name="closeFramework"/>
+          <include name="tearDown"/>
+          <include name="initFramework"/>
+          <include name="setUp"/>
+          <include name="initGlobalConstants"/>
+        </methods>
+      </class> <!-- in.licious.test.FishandSeafoodSavedCards -->
+>>>>>>> branch 'master' of https://github.com/VishwaLicious/Payments-Knockout.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
