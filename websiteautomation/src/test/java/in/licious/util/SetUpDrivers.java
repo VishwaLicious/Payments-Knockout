@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+// import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -16,7 +16,9 @@ public class SetUpDrivers {
 	private  WebDriver driver;
 	public  WebDriver launchFirefoxDriver(String url){
 		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\BrowserDrivers\\geckodriver.exe");
-		driver=new FirefoxDriver();
+		
+		//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"C:\\Users\\Sriya\\git\\Payments-Knockout\\websiteautomation\\BrowserDrivers\\geckodriver.exe");
+	//	driver=new FirefoxDriver();
 		driver.get(url);
 		return driver;
 	}
@@ -25,8 +27,8 @@ public class SetUpDrivers {
 		// This is for Windows os
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\BrowserDrivers\\chromedriver.exe");
 		
-		// This is for Mac os
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/BrowserDrivers/chromedriver");
+		/*// This is for Mac os
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/BrowserDrivers/chromedriver");*/
 	//	System.setProperty("webdriver.chrome.driver",System.getProperty("/Users/Vishwa/Downloads/SeleniumWebDriver-master/BrowserDrivers/chromedriver"));
 		
 		ChromeOptions options=new ChromeOptions();
