@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88611" started-at="2018-12-03T12:25:30Z" finished-at="2018-12-03T12:26:59Z">
+  <suite name="Default suite" duration-ms="91053" started-at="2018-12-03T13:48:22Z" finished-at="2018-12-03T13:49:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88611" started-at="2018-12-03T12:25:30Z" finished-at="2018-12-03T12:26:59Z">
+    <test name="Default test" duration-ms="91053" started-at="2018-12-03T13:48:22Z" finished-at="2018-12-03T13:49:53Z">
       <class name="in.licious.test.FishandSeafoodCreditAndDebitCards">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initFramework" is-config="true" duration-ms="626" started-at="2018-12-03T17:55:30Z" finished-at="2018-12-03T17:55:30Z">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initFramework" is-config="true" duration-ms="144" started-at="2018-12-03T19:18:22Z" finished-at="2018-12-03T19:18:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initGlobalConstants" is-config="true" duration-ms="2" started-at="2018-12-03T17:55:30Z" finished-at="2018-12-03T17:55:30Z">
+        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initGlobalConstants" is-config="true" duration-ms="2" started-at="2018-12-03T19:18:22Z" finished-at="2018-12-03T19:18:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initGlobalConstants -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="setUp" is-config="true" duration-ms="9680" started-at="2018-12-03T17:55:30Z" finished-at="2018-12-03T17:55:40Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="setUp" is-config="true" duration-ms="10175" started-at="2018-12-03T19:18:22Z" finished-at="2018-12-03T19:18:32Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testfishandseafood()[pri:26, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="testfishandseafood" duration-ms="78731" started-at="2018-12-03T17:55:40Z" finished-at="2018-12-03T17:56:59Z">
+        <test-method status="PASS" signature="testfishandseafood()[pri:26, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="testfishandseafood" duration-ms="80579" started-at="2018-12-03T19:18:32Z" finished-at="2018-12-03T19:19:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testfishandseafood -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="tearDown" is-config="true" duration-ms="179" started-at="2018-12-03T17:56:59Z" finished-at="2018-12-03T17:56:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="tearDown" is-config="true" duration-ms="279" started-at="2018-12-03T19:19:53Z" finished-at="2018-12-03T19:19:53Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="closeFramework" is-config="true" duration-ms="430" started-at="2018-12-03T17:56:59Z" finished-at="2018-12-03T17:56:59Z">
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="closeFramework" is-config="true" duration-ms="425" started-at="2018-12-03T19:19:53Z" finished-at="2018-12-03T19:19:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeFramework -->
