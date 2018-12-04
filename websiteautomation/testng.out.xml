@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+    <!-- This xml file is added by sriya  -->
     <class name="TestClass.java">
     </class>
     </classes>
