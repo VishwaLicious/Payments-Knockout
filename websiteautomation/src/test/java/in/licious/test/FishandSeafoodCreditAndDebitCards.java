@@ -174,6 +174,7 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 		// Switch back to original browser (first window)
 		driver.switchTo().window(winHandleBefore);
 							
+		System.out.println("New things");
 		
 	}
 	
