@@ -137,6 +137,8 @@ public class EggsNetBanking extends BaseTest {
 			newDeliverySummary.getProceedToPaymentBtn().click();
 			Helper.customWait(2);
 		}
+		
+		
 		// New Payment Page
 				NewPaymentPage newPaymentPage = new NewPaymentPage(driver);
 				

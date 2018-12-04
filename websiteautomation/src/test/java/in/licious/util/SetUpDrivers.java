@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-// import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -18,7 +18,7 @@ public class SetUpDrivers {
 		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\BrowserDrivers\\geckodriver.exe");
 		
 		//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"C:\\Users\\Sriya\\git\\Payments-Knockout\\websiteautomation\\BrowserDrivers\\geckodriver.exe");
-	//	driver=new FirefoxDriver();
+		//driver=new FirefoxDriver();
 		driver.get(url);
 		return driver;
 	}
