@@ -6858,6 +6858,7 @@
 2018-12-03 19:18:22,405 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
 2018-12-03 19:18:32,351 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
 2018-12-03 19:19:53,450 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+<<<<<<< HEAD
 2018-12-04 17:53:32,690 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
 2018-12-04 17:53:32,697 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
 2018-12-04 17:53:32,698 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
@@ -7024,3 +7025,40 @@
 2019-01-29 16:05:10,808 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 5 
 2019-01-29 16:05:22,461 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is launched 
 2019-01-29 16:06:37,127 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is closed 
+=======
+2018-12-04 11:53:02,696 - [in.licious.test.Chicken] - INFO - framework is initialised 
+2018-12-04 11:53:02,703 - [in.licious.test.Chicken] - INFO - chrome 
+2018-12-04 11:53:02,704 - [in.licious.test.Chicken] - INFO - http://web.licious.in 
+2018-12-04 11:53:02,707 - [in.licious.test.Chicken] - INFO - 9880335493 
+2018-12-04 11:53:02,707 - [in.licious.test.Chicken] - INFO - 123456 
+2018-12-04 11:53:02,707 - [in.licious.test.Chicken] - INFO - 5 
+2018-12-04 11:53:13,092 - [in.licious.test.Chicken] - INFO - chrome is launched 
+2018-12-04 11:54:21,109 - [in.licious.test.Chicken] - INFO - chrome is closed 
+2018-12-04 12:14:40,552 - [in.licious.test.ColdCutsCOD] - INFO - framework is initialised 
+2018-12-04 12:14:40,560 - [in.licious.test.ColdCutsCOD] - INFO - chrome 
+2018-12-04 12:14:40,561 - [in.licious.test.ColdCutsCOD] - INFO - http://web.licious.in 
+2018-12-04 12:14:40,563 - [in.licious.test.ColdCutsCOD] - INFO - 9880335493 
+2018-12-04 12:14:40,563 - [in.licious.test.ColdCutsCOD] - INFO - 123456 
+2018-12-04 12:14:40,565 - [in.licious.test.ColdCutsCOD] - INFO - 5 
+2018-12-04 12:14:52,470 - [in.licious.test.ColdCutsCOD] - INFO - chrome is launched 
+2018-12-04 12:16:10,015 - [in.licious.test.ColdCutsCOD] - INFO - chrome is closed 
+2018-12-04 12:25:58,598 - [in.licious.test.ExoticOtherWallets] - INFO - framework is initialised 
+2018-12-04 12:25:58,602 - [in.licious.test.ExoticOtherWallets] - INFO - chrome 
+2018-12-04 12:25:58,603 - [in.licious.test.ExoticOtherWallets] - INFO - http://web.licious.in 
+2018-12-04 12:25:58,605 - [in.licious.test.ExoticOtherWallets] - INFO - 9880335493 
+2018-12-04 12:25:58,605 - [in.licious.test.ExoticOtherWallets] - INFO - 123456 
+2018-12-04 12:25:58,606 - [in.licious.test.ExoticOtherWallets] - INFO - 5 
+2018-12-04 12:26:08,679 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
+2018-12-04 12:26:13,270 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is closed 
+2018-12-04 12:26:24,617 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
+2018-12-04 12:26:58,696 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is closed 
+2018-12-04 12:27:08,257 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
+2018-12-04 12:28:17,172 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is closed 
+2018-12-04 12:28:25,980 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
+2018-12-04 12:28:34,882 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is closed 
+2018-12-04 12:28:46,058 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
+2018-12-04 12:28:53,606 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is closed 
+2018-12-04 12:29:02,440 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
+2018-12-04 12:29:35,607 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is closed 
+2018-12-04 12:29:43,727 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
+>>>>>>> branch 'knockout' of https://github.com/VishwaLicious/Payments-Knockout.git
