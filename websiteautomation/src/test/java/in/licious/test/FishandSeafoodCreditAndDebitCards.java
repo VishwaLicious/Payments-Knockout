@@ -30,7 +30,7 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 		
 		// Sign In with New Login Flow
 		NewLoginFlow newlogin = new NewLoginFlow(driver);
-		Helper helper = new Helper();
+		Helper helper = new Helper();	
 		helper.clickOnElement(driver, newlogin.getSelectLocation());
 		Helper.customWait(2);
 		helper.clickOnElement(driver, newlogin.getbengaluruDeliveryLocation());
@@ -177,6 +177,7 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 		System.out.println("New things");
 		
 	}
+	
 	
 
 }

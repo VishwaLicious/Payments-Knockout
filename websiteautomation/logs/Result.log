@@ -6858,3 +6858,169 @@
 2018-12-03 19:18:22,405 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
 2018-12-03 19:18:32,351 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
 2018-12-03 19:19:53,450 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2018-12-04 17:53:32,690 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 17:53:32,697 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2018-12-04 17:53:32,698 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 17:53:32,698 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 17:53:32,698 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 17:53:32,698 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 17:53:46,921 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 17:53:46,929 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2018-12-04 17:53:46,930 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 17:53:46,930 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 17:53:46,931 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 17:53:46,931 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 17:58:10,354 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 17:58:10,362 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2018-12-04 17:58:10,362 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 17:58:10,363 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 17:58:10,363 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 17:58:10,364 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 18:02:23,642 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 18:02:23,648 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2018-12-04 18:02:23,648 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 18:02:23,649 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 18:02:23,649 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 18:02:23,649 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 18:02:33,494 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2018-12-04 18:04:00,132 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2018-12-04 20:01:34,287 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 20:01:34,294 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - firefox 
+2018-12-04 20:01:34,294 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 20:01:34,295 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 20:01:34,295 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 20:01:34,295 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 20:03:07,955 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 20:03:07,962 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - firefox 
+2018-12-04 20:03:07,964 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 20:03:07,964 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 20:03:07,965 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 20:03:07,965 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 20:03:38,342 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 20:03:38,350 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - firefox 
+2018-12-04 20:03:38,351 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 20:03:38,351 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 20:03:38,351 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 20:03:38,352 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 20:08:49,522 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 20:08:49,529 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - firefox 
+2018-12-04 20:08:49,529 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 20:08:49,529 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 20:08:49,529 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 20:08:49,530 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 20:11:54,024 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 20:11:54,032 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - firefox 
+2018-12-04 20:11:54,032 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 20:11:54,033 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 20:11:54,033 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 20:11:54,033 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-04 20:12:49,199 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-04 20:12:49,207 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - firefox 
+2018-12-04 20:12:49,208 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-04 20:12:49,208 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-04 20:12:49,208 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-04 20:12:49,209 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-06 12:03:41,255 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-06 12:03:41,264 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2018-12-06 12:03:41,265 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-06 12:03:41,266 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-06 12:03:41,266 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-06 12:03:41,268 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-06 12:03:55,585 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2018-12-06 14:55:55,083 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-06 14:55:55,090 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2018-12-06 14:55:55,090 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-06 14:55:55,091 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-06 14:55:55,091 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-06 14:55:55,092 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-06 14:56:03,809 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2018-12-06 14:57:09,093 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2018-12-06 14:57:17,916 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2018-12-27 14:49:30,690 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2018-12-27 14:49:30,698 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2018-12-27 14:49:30,699 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2018-12-27 14:49:30,700 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2018-12-27 14:49:30,701 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2018-12-27 14:49:30,702 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2018-12-27 14:49:41,995 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2018-12-27 14:50:48,816 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2018-12-28 13:18:53,286 - [in.licious.test.FishandSeafoodCOD] - INFO - framework is initialised 
+2018-12-28 13:18:53,293 - [in.licious.test.FishandSeafoodCOD] - INFO - chrome 
+2018-12-28 13:18:53,294 - [in.licious.test.FishandSeafoodCOD] - INFO - http://web.licious.in 
+2018-12-28 13:18:53,294 - [in.licious.test.FishandSeafoodCOD] - INFO - 9880335493 
+2018-12-28 13:18:53,294 - [in.licious.test.FishandSeafoodCOD] - INFO - 123456 
+2018-12-28 13:18:53,295 - [in.licious.test.FishandSeafoodCOD] - INFO - 5 
+2018-12-28 13:19:11,208 - [in.licious.test.FishandSeafoodCOD] - INFO - chrome is launched 
+2018-12-28 13:20:20,248 - [in.licious.test.FishandSeafoodCOD] - INFO - chrome is closed 
+2018-12-31 11:55:28,966 - [in.licious.test.FishandSeafoodNetBanking] - INFO - framework is initialised 
+2018-12-31 11:55:28,973 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome 
+2018-12-31 11:55:28,973 - [in.licious.test.FishandSeafoodNetBanking] - INFO - http://web.licious.in 
+2018-12-31 11:55:28,973 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 9880335493 
+2018-12-31 11:55:28,974 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 123456 
+2018-12-31 11:55:28,974 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 5 
+2018-12-31 11:55:47,350 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is launched 
+2018-12-31 11:57:09,115 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is closed 
+2018-12-31 12:04:55,606 - [in.licious.test.FishandSeafoodNetBanking] - INFO - framework is initialised 
+2018-12-31 12:04:55,615 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome 
+2018-12-31 12:04:55,616 - [in.licious.test.FishandSeafoodNetBanking] - INFO - http://web.licious.in 
+2018-12-31 12:04:55,617 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 9880335493 
+2018-12-31 12:04:55,617 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 123456 
+2018-12-31 12:04:55,618 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 5 
+2018-12-31 12:05:05,670 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is launched 
+2018-12-31 12:06:22,198 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is closed 
+2019-01-01 21:16:11,564 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-01 21:16:11,570 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-01 21:16:11,571 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.info 
+2019-01-01 21:16:11,571 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-01 21:16:11,571 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-01 21:16:11,572 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-01 21:16:21,659 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-01 21:17:01,448 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-01-24 11:49:14,906 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-24 11:49:14,921 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-24 11:49:14,922 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.info 
+2019-01-24 11:49:14,922 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-24 11:49:14,923 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-24 11:49:14,923 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-24 11:49:25,916 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-24 11:50:07,828 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-01-24 17:19:51,757 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-24 17:19:51,764 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-24 17:19:51,764 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-01-24 17:19:51,765 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-24 17:19:51,765 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-24 17:19:51,765 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-24 17:20:04,369 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-24 17:21:27,974 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-01-27 20:33:50,374 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-27 20:33:50,384 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-27 20:33:50,384 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-01-27 20:33:50,385 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-27 20:33:50,385 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-27 20:33:50,385 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-27 20:34:17,466 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-27 20:34:48,744 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-01-28 16:31:10,527 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-28 16:31:10,537 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-28 16:31:10,537 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-01-28 16:31:10,538 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-28 16:31:10,538 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-28 16:31:10,538 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-28 16:31:25,755 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-28 16:32:28,153 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-01-28 16:33:08,452 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-28 16:33:08,460 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-28 16:33:08,460 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-01-28 16:33:08,461 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-28 16:33:08,461 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-28 16:33:08,461 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-28 16:33:19,138 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-28 16:34:21,621 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-01-29 16:05:10,798 - [in.licious.test.FishandSeafoodNetBanking] - INFO - framework is initialised 
+2019-01-29 16:05:10,805 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome 
+2019-01-29 16:05:10,806 - [in.licious.test.FishandSeafoodNetBanking] - INFO - http://web.licious.in 
+2019-01-29 16:05:10,806 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 9880335493 
+2019-01-29 16:05:10,807 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 123456 
+2019-01-29 16:05:10,808 - [in.licious.test.FishandSeafoodNetBanking] - INFO - 5 
+2019-01-29 16:05:22,461 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is launched 
+2019-01-29 16:06:37,127 - [in.licious.test.FishandSeafoodNetBanking] - INFO - chrome is closed 

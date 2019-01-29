@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91053" started-at="2018-12-03T13:48:22Z" finished-at="2018-12-03T13:49:53Z">
+  <suite name="Default suite" duration-ms="86330" started-at="2019-01-29T10:35:10Z" finished-at="2019-01-29T10:36:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="91053" started-at="2018-12-03T13:48:22Z" finished-at="2018-12-03T13:49:53Z">
-      <class name="in.licious.test.FishandSeafoodCreditAndDebitCards">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initFramework" is-config="true" duration-ms="144" started-at="2018-12-03T19:18:22Z" finished-at="2018-12-03T19:18:22Z">
+    <test name="Default test" duration-ms="86330" started-at="2019-01-29T10:35:10Z" finished-at="2019-01-29T10:36:37Z">
+      <class name="in.licious.test.FishandSeafoodNetBanking">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:in.licious.test.FishandSeafoodNetBanking@2b2948e2]" name="initFramework" is-config="true" duration-ms="5178" started-at="2019-01-29T16:05:05Z" finished-at="2019-01-29T16:05:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="initGlobalConstants" is-config="true" duration-ms="2" started-at="2018-12-03T19:18:22Z" finished-at="2018-12-03T19:18:22Z">
+        <test-method status="PASS" signature="initGlobalConstants()[pri:0, instance:in.licious.test.FishandSeafoodNetBanking@2b2948e2]" name="initGlobalConstants" is-config="true" duration-ms="3" started-at="2019-01-29T16:05:10Z" finished-at="2019-01-29T16:05:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initGlobalConstants -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="setUp" is-config="true" duration-ms="10175" started-at="2018-12-03T19:18:22Z" finished-at="2018-12-03T19:18:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.licious.test.FishandSeafoodNetBanking@2b2948e2]" name="setUp" is-config="true" duration-ms="11877" started-at="2019-01-29T16:05:10Z" finished-at="2019-01-29T16:05:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void in.licious.test.FishandSeafoodCreditAndDebitCards.testfishandseafood() throws java.lang.ClassNotFoundException,java.sql.SQLException]]>
+                <![CDATA[public void in.licious.test.FishandSeafoodNetBanking.testfishandseafood() throws java.lang.ClassNotFoundException,java.sql.SQLException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testfishandseafood()[pri:26, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="testfishandseafood" duration-ms="80579" started-at="2018-12-03T19:18:32Z" finished-at="2018-12-03T19:19:53Z">
+        <test-method status="PASS" signature="testfishandseafood()[pri:27, instance:in.licious.test.FishandSeafoodNetBanking@2b2948e2]" name="testfishandseafood" duration-ms="74169" started-at="2019-01-29T16:05:22Z" finished-at="2019-01-29T16:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testfishandseafood -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="tearDown" is-config="true" duration-ms="279" started-at="2018-12-03T19:19:53Z" finished-at="2018-12-03T19:19:53Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.licious.test.FishandSeafoodNetBanking@2b2948e2]" name="tearDown" is-config="true" duration-ms="261" started-at="2019-01-29T16:06:36Z" finished-at="2019-01-29T16:06:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testfishandseafood status=SUCCESS method=FishandSeafoodCreditAndDebitCards.testfishandseafood()[pri:26, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2] output={null}]]]>
+                <![CDATA[[TestResult name=testfishandseafood status=SUCCESS method=FishandSeafoodNetBanking.testfishandseafood()[pri:27, instance:in.licious.test.FishandSeafoodNetBanking@2b2948e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.FishandSeafoodCreditAndDebitCards@2b2948e2]" name="closeFramework" is-config="true" duration-ms="425" started-at="2018-12-03T19:19:53Z" finished-at="2018-12-03T19:19:53Z">
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:in.licious.test.FishandSeafoodNetBanking@2b2948e2]" name="closeFramework" is-config="true" duration-ms="290" started-at="2019-01-29T16:06:42Z" finished-at="2019-01-29T16:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeFramework -->
-      </class> <!-- in.licious.test.FishandSeafoodCreditAndDebitCards -->
+      </class> <!-- in.licious.test.FishandSeafoodNetBanking -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

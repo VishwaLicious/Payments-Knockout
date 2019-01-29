@@ -32,7 +32,7 @@ public class FishandSeafoodNetBanking extends BaseTest {
 		NewLoginFlow newlogin = new NewLoginFlow(driver);
 		Helper helper = new Helper();
 		helper.clickOnElement(driver, newlogin.getSelectLocation());
-		Helper.customWait(2);
+		Helper.customWait(2);	
 		helper.clickOnElement(driver, newlogin.getbengaluruDeliveryLocation());
 		Helper.customWait(2);
 		helper.enterText(driver, newlogin.getLoactionTxtBox(), location);
