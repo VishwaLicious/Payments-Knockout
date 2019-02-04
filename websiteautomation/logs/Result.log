@@ -7062,3 +7062,33 @@
 2018-12-04 12:29:35,607 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is closed 
 2018-12-04 12:29:43,727 - [in.licious.test.ExoticOtherWallets] - INFO - chrome is launched 
 >>>>>>> branch 'knockout' of https://github.com/VishwaLicious/Payments-Knockout.git
+2019-01-30 12:12:17,267 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-30 12:12:17,275 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-30 12:12:17,276 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-01-30 12:12:17,276 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-30 12:12:17,277 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-30 12:12:17,277 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-30 12:15:17,242 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-30 12:15:17,251 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-30 12:15:17,252 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-01-30 12:15:17,252 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-30 12:15:17,252 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-30 12:15:17,253 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-30 12:15:29,591 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-30 12:17:06,569 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-01-31 12:31:49,481 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-01-31 12:31:49,488 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-01-31 12:31:49,488 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-01-31 12:31:49,488 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-01-31 12:31:49,489 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-01-31 12:31:49,489 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-01-31 12:31:58,498 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-01-31 12:33:24,778 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
+2019-02-04 13:18:56,561 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - framework is initialised 
+2019-02-04 13:18:56,567 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome 
+2019-02-04 13:18:56,567 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - http://web.licious.in 
+2019-02-04 13:18:56,568 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 9880335493 
+2019-02-04 13:18:56,568 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 123456 
+2019-02-04 13:18:56,569 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - 5 
+2019-02-04 13:19:06,668 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is launched 
+2019-02-04 13:20:24,709 - [in.licious.test.FishandSeafoodCreditAndDebitCards] - INFO - chrome is closed 
