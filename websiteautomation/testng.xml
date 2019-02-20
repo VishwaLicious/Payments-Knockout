@@ -33,7 +33,7 @@
 	      <class name="in.licious.test.EggsCreditAndDebitCards"/>
 	      <class name="in.licious.test.RedMeatsOtherWallets"/> -->
       <!-- <class name="in.licious.test.FishandSeafoodSavedCards"/> -->
-      <class name="in.licious.test.FishandSeafoodPOD"/>
+     <!--  <class name="in.licious.test.FishandSeafoodPOD"/> -->
       <class name="in.licious.test.FishandSeafoodCreditAndDebitCards"/>
       <!-- <class name="in.licious.test.ChickenOtherWallets"/>
       <class name="in.licious.test.ExoticPOD"/>
