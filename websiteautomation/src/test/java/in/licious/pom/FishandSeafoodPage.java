@@ -8,7 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class FishandSeafoodPage extends BasePage {
 	
 	// Product_Name Basa_Fillet
-	@FindBy (xpath="//button[@data-prid='pr_5746a6e241199']")
+	//@FindBy (xpath="//button[@data-prid='pr_5746a6e241199']")
+	@FindBy (xpath="(//button[@class='add-to-cart addCartBtn-home'])[1]")
+	
 	private WebElement addtocart_Basa_Fillet;
 
 	public FishandSeafoodPage(WebDriver driver) {
