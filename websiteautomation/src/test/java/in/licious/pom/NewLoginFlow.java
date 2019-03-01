@@ -36,6 +36,12 @@ public class NewLoginFlow extends BasePage{
 	@FindBy(xpath="//span[@class='fb-login']")
 	private WebElement facebookloginBtn;
 	
+	// Facebook Login elements
+	@FindBy(xpath="//button[@class='No thanks']")
+	private WebElement dealsandoffers;
+		
+	
+	
 	
 	
 	public NewLoginFlow(WebDriver driver){
@@ -78,6 +84,10 @@ public class NewLoginFlow extends BasePage{
 	
 	public WebElement getfacebookloginBtn(){
 		return facebookloginBtn;
+	}
+	
+	public WebElement getdealsandoffers(){
+		return dealsandoffers;
 	}
 	
 	

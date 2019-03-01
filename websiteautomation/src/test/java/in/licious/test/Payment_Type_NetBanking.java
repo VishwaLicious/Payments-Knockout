@@ -1,6 +1,8 @@
 package in.licious.test;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.sql.SQLException;
 
 import org.openqa.selenium.By;
@@ -17,13 +19,14 @@ import in.licious.pom.NewCheckoutPage;
 import in.licious.pom.NewDeliverySummaryPage;
 import in.licious.pom.NewLoginFlow;
 import in.licious.pom.NewPaymentPage;
+import in.licious.pom.RayzorpayPage;
 import in.licious.util.DataBaseCCC;
 import in.licious.util.Helper;
 
-public class FishandSeafoodSavedCards extends BaseTest {
+public class Payment_Type_NetBanking extends BaseTest {
 	
-	@Test (priority=30)
-	public void testfishandseafood() throws ClassNotFoundException, SQLException
+	@Test (priority=4)
+	public void testPayment_Type_NetBanking() throws ClassNotFoundException, SQLException
 	{
 		
 		
@@ -31,7 +34,7 @@ public class FishandSeafoodSavedCards extends BaseTest {
 		NewLoginFlow newlogin = new NewLoginFlow(driver);
 		Helper helper = new Helper();
 		helper.clickOnElement(driver, newlogin.getSelectLocation());
-		Helper.customWait(2);
+		Helper.customWait(2);	
 		helper.clickOnElement(driver, newlogin.getbengaluruDeliveryLocation());
 		Helper.customWait(2);
 		helper.enterText(driver, newlogin.getLoactionTxtBox(), location);
@@ -62,24 +65,35 @@ public class FishandSeafoodSavedCards extends BaseTest {
 				
 		
 		// Click on OTP Login
-		// Reading OTP  from DB
-		DataBaseCCC db1=new DataBaseCCC(driver);
-		System.out.println("Pass1");
-		String s1=db1.otp1;
-		System.out.println("otp1");
-		System.out.println("pass2");
-		System.out.println(s1);
-		System.out.println("pass3");
+				// Reading OTP  from DB
+				DataBaseCCC db1=new DataBaseCCC(driver);
+				
+				String s1=db1.otp1;
+				System.out.println("otp1");
+			
+				System.out.println(s1);
+				System.out.println("Fetched OTP from the DB");
+				
+				log.info(s1+" Fetched OTP from the DB ");
+				etest.log(LogStatus.PASS,s1 +" Fetched OTP from the DB");
+		
 		
 		// Click on Login Button
 		helper.clickOnElement(driver, newlogin.getpasswordloginBtn());
 		Helper.customWait(5);
 		
+		
+//		// Handling the Deals and Offers pop which comes in production after login
+//				newlogin.getdealsandoffers().click();
+//				Helper.customWait(5);
 				
 		// Click on FishAndSeaFood category
 		HomePage home=new HomePage(driver);
 		home.getfishSeafoodCat().click();
 		Helper.customWait(4);
+		
+		log.info(" Clicked on fish and seafood category ");
+		etest.log(LogStatus.PASS, " Clicked on fish and seafood category ");
 		
 		// Add Basa_Fillet to cart
 		FishandSeafoodPage fishandseafoodPage =new FishandSeafoodPage(driver);
@@ -88,6 +102,8 @@ public class FishandSeafoodSavedCards extends BaseTest {
 		Helper.customWait(4);
 		System.out.println("pass");
 		
+		log.info(" Added product to cart ");
+		etest.log(LogStatus.PASS, " Added product to cart ");
 		
 		// New Checkout flow
 		
@@ -95,14 +111,20 @@ public class FishandSeafoodSavedCards extends BaseTest {
 		NewCheckoutPage cartloaded = new NewCheckoutPage(driver);
 		cartloaded.getcartBtn().click();
 		Helper.customWait(2);
-		cartloaded.getCheckoutBtn().click();
+		cartloaded.getCheckoutBtn().click();	
 		Helper.customWait(2);
+		
+		log.info(" Proceed to checkout ");
+		etest.log(LogStatus.PASS, " Proceed to checkout ");
 		
 		// New Address Summary Page
 		NewAddressPage newAddressPage = new NewAddressPage(driver);
 		newAddressPage.getInd().click();
 		newAddressPage.getContinueBtn().click();
 		Helper.customWait(2);
+		
+		log.info(" Select Delivery Address ");
+		etest.log(LogStatus.PASS, " Select Delivery Address ");
 		
 		// New Delivery Summary page
 		//NewDeliverySummaryPage  newDeliverySummary = new NewDeliverySummaryPage(driver);
@@ -122,6 +144,9 @@ public class FishandSeafoodSavedCards extends BaseTest {
 			System.out.println("Order Placing as Express Delivery");
 			newDeliverySummary.getProceedToPaymentBtn().click();	
 			Helper.customWait(2);
+			
+			log.info(" Order Placing as Express Delivery ");
+			etest.log(LogStatus.PASS, " Order Placing as Express Delivery ");
 		}
 		
 		else 
@@ -135,18 +160,46 @@ public class FishandSeafoodSavedCards extends BaseTest {
 			Helper.customWait(2);
 			newDeliverySummary.getProceedToPaymentBtn().click();
 			Helper.customWait(2);
+			
+			log.info(" Order Placing as Scheduled Delivery ");
+			etest.log(LogStatus.PASS, " Order Placing as Scheduled Delivery ");
 		}
 		// New Payment Page
-		NewPaymentPage newPaymentPage = new NewPaymentPage(driver);
-		
-		// Saved card payment 
-		newPaymentPage.getSavedCard1().click();
-		Helper.customWait(2);
-		//helper.enterText(driver, newlogin.getMobileNumber(), userName);
-		helper.enterText(driver, newPaymentPage.getCvv1(), "111");
-		Helper.customWait(5);
-		newPaymentPage.getSavedCardButton().click();
-		Helper.customWait(5);
+				NewPaymentPage newPaymentPage = new NewPaymentPage(driver);
+				
+				// Paying through net banking
+				newPaymentPage.getNetBanking().click();
+				Helper.customWait(5);
+				newPaymentPage.getHDFC().click();
+				Helper.customWait(5);
+				newPaymentPage.getPayNetBankingButton().click();
+				Helper.customWait(5);
+				
+				log.info(" Selected NetBanking as payment mode ");
+				etest.log(LogStatus.PASS, " Selected NetBanking as payment mode ");
+				
+				
+				// Store the current window handle
+				String winHandleBefore = driver.getWindowHandle();
+				// Perform the click operation that opens new window
+				// Switch to new window opened
+				for (String winHandle : driver.getWindowHandles()) 
+				{
+					driver.switchTo().window(winHandle);
+				}
+				RayzorpayPage success = new RayzorpayPage(driver);
+				driver.manage().window().maximize();
+				System.out.println("maximized");
+				
+				//Commenting the final pay button on production
+				success.getRayzorpayPage().click();
+				Helper.customWait(5);
+				System.out.println("Net Banking Order Placed Sucessfully from Chicken Category");
+				// Switch back to original browser (first window)
+				driver.switchTo().window(winHandleBefore);
+				
+				log.info(" Order Placed Sucessfully with Net Banking as payment mode ");
+				etest.log(LogStatus.PASS, " Order Placed Sucessfully with Net Banking as payment mode ");
 							
 		
 	}

@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="in.licious.test.FishandSeafoodCreditAndDebitCards">
+      <class name="in.licious.test.PaymentTypeSavedCards">
         <methods>
-          <include name="testfishandseafood"/>
           <include name="closeFramework"/>
           <include name="tearDown"/>
+          <include name="testPaymentTypeSavedCards"/>
           <include name="initFramework"/>
           <include name="setUp"/>
           <include name="initGlobalConstants"/>
         </methods>
-      </class> <!-- in.licious.test.FishandSeafoodCreditAndDebitCards -->
+      </class> <!-- in.licious.test.PaymentTypeSavedCards -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

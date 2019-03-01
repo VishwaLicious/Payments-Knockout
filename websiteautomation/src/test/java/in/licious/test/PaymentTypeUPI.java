@@ -1,9 +1,12 @@
 package in.licious.test;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.sql.SQLException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -21,10 +24,10 @@ import in.licious.pom.RayzorpayPage;
 import in.licious.util.DataBaseCCC;
 import in.licious.util.Helper;
 
-public class FishandSeafoodCreditAndDebitCards extends BaseTest {
+public class PaymentTypeUPI extends BaseTest {
 	
 	@Test (priority=26)
-	public void testfishandseafood() throws ClassNotFoundException, SQLException
+	public void testPaymentTypeUPI() throws ClassNotFoundException, SQLException
 	{
 		
 		
@@ -63,32 +66,52 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 				
 		
 		// Click on OTP Login
-		// Reading OTP  from DB
-		DataBaseCCC db1=new DataBaseCCC(driver);
-		System.out.println("Pass1");
-		String s1=db1.otp1;
-		System.out.println("otp1");
-		System.out.println("pass2");
-		System.out.println(s1);
-		System.out.println("pass3");
+				// Reading OTP  from DB
+				DataBaseCCC db1=new DataBaseCCC(driver);
+				
+				String s1=db1.otp1;
+				System.out.println("otp1");
+			
+				System.out.println(s1);
+				System.out.println("Fetched OTP from the DB");
+				
+				log.info(s1+" Fetched OTP from the DB ");
+				etest.log(LogStatus.PASS,s1 +" Fetched OTP from the DB");
 		
 		// Click on Login Button
 		helper.clickOnElement(driver, newlogin.getpasswordloginBtn());
 		Helper.customWait(5);
 		
+		
+//		// Handling the Deals and Offers pop which comes in production after login
+//				newlogin.getdealsandoffers().click();
+//				Helper.customWait(5);
+//		
 				
 		// Click on FishAndSeaFood category
 		HomePage home=new HomePage(driver);
 		home.getfishSeafoodCat().click();
 		Helper.customWait(4);
 		
+		
+		log.info(" Clicked on fish and seafood category ");
+		etest.log(LogStatus.PASS, " Clicked on fish and seafood category ");
+
+		
+		
 		// Add Basa_Fillet to cart
 		FishandSeafoodPage fishandseafoodPage =new FishandSeafoodPage(driver);
 		WebElement addtocart= fishandseafoodPage.getBasaFillet();
 		helper.scrollBar(driver, addtocart );
 		Helper.customWait(4);
-		System.out.println("pass");
+	
+		log.info(" Added product to cart ");
+		etest.log(LogStatus.PASS, " Added product to cart ");
 		
+		
+
+//		WebElement addtocart1= fishandseafoodPage.getproduct_behind_vieworder();
+//		jse.executeScript("arguments[0].click()", addtocart1);
 		
 		// New Checkout flow
 		
@@ -99,11 +122,17 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 		cartloaded.getCheckoutBtn().click();
 		Helper.customWait(2);
 		
+		log.info(" Proceed to checkout ");
+		etest.log(LogStatus.PASS, " Proceed to checkout ");
+		
 		// New Address Summary Page
 		NewAddressPage newAddressPage = new NewAddressPage(driver);
 		newAddressPage.getInd().click();
 		newAddressPage.getContinueBtn().click();
 		Helper.customWait(2);
+		
+		log.info(" Select Delivery Address ");
+		etest.log(LogStatus.PASS, " Select Delivery Address ");
 		
 		// New Delivery Summary page
 		//NewDeliverySummaryPage  newDeliverySummary = new NewDeliverySummaryPage(driver);
@@ -123,6 +152,9 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 			System.out.println("Order Placing as Express Delivery");
 			newDeliverySummary.getProceedToPaymentBtn().click();	
 			Helper.customWait(2);
+			
+			log.info(" Order Placing as Express Delivery ");
+			etest.log(LogStatus.PASS, " Order Placing as Express Delivery ");
 		}
 		
 		else 
@@ -135,15 +167,50 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 			newDeliverySummary.getTimeSlot().click();
 			Helper.customWait(2);
 			newDeliverySummary.getProceedToPaymentBtn().click();
-			Helper.customWait(2);
+			Helper.customWait(5);
+			
+			log.info(" Order Placing as Scheduled Delivery ");
+			etest.log(LogStatus.PASS, " Order Placing as Scheduled Delivery ");
 		}
 		// New Payment Page
 		NewPaymentPage newPaymentPage = new NewPaymentPage(driver);
 		
 		// Credit and Debit card payments 
-		newPaymentPage.getCreditAndDebitCard().click();
+		newPaymentPage.getpayUsingUPI().click();
 		Helper.customWait(2);
-		//helper.enterText(driver, newlogin.getMobileNumber(), userName);
+		
+		// Select the GPay UPI
+		newPaymentPage.getGPayUPI().click();
+		Helper.customWait(2);
+		
+		//Clicking on entering the UPI ID text box
+		//newPaymentPage.getGpayId().click();
+		
+		// Enter the GPay ID
+		//commenting the final payment to run the test in production
+		helper.enterText(driver, newPaymentPage.getGpayId(), "success@razorpay");
+		Helper.customWait(2);
+		
+		
+		
+		log.info(" Selected UPI as payment mode ");
+		etest.log(LogStatus.PASS, " Selected UPI as payment mode ");
+
+		log.info(" Order Placed Sucessfully with UPI as payment mode ");
+		etest.log(LogStatus.PASS, " Order Placed Sucessfully with UPI as payment mode ");
+		
+		
+		//Click on the UPI Payment Button
+		newPaymentPage.getPayUPIButton().click();
+		Helper.customWait(2);
+		
+		//Order Placed Using UPI Payment Method
+		
+		log.info(" Order Placed Sucessfully with UPI as payment mode ");
+		etest.log(LogStatus.PASS, " Order Placed Sucessfully with UPI as payment mode ");
+		Helper.customWait(2);
+		
+	/*	//helper.enterText(driver, newlogin.getMobileNumber(), userName);
 		helper.enterText(driver, newPaymentPage.getenterCardNo(), "4111111111111111");
 		Helper.customWait(2);
 		helper.enterText(driver, newPaymentPage.getenterMonth(), "04");
@@ -174,7 +241,7 @@ public class FishandSeafoodCreditAndDebitCards extends BaseTest {
 		// Switch back to original browser (first window)
 		driver.switchTo().window(winHandleBefore);
 							
-		System.out.println("New things");
+		System.out.println("New things"); */
 		
 	}
 	

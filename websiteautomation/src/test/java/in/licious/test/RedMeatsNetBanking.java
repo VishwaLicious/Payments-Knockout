@@ -1,6 +1,8 @@
 package in.licious.test;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.sql.SQLException;
 
 import org.openqa.selenium.By;

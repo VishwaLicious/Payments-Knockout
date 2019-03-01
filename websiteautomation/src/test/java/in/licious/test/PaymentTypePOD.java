@@ -1,6 +1,8 @@
 package in.licious.test;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.sql.SQLException;
 
 import org.openqa.selenium.By;
@@ -17,14 +19,13 @@ import in.licious.pom.NewCheckoutPage;
 import in.licious.pom.NewDeliverySummaryPage;
 import in.licious.pom.NewLoginFlow;
 import in.licious.pom.NewPaymentPage;
-import in.licious.pom.RayzorpayPage;
 import in.licious.util.DataBaseCCC;
 import in.licious.util.Helper;
 
-public class FishandSeafoodOtherWallets extends BaseTest {
+public class PaymentTypePOD extends BaseTest {
 	
-	@Test (priority=28)
-	public void testfishandseafood() throws ClassNotFoundException, SQLException
+	@Test (priority=7)
+	public void testPaymentTypePOD() throws ClassNotFoundException, SQLException
 	{
 		
 		
@@ -63,18 +64,26 @@ public class FishandSeafoodOtherWallets extends BaseTest {
 				
 		
 		// Click on OTP Login
-		// Reading OTP  from DB
-		DataBaseCCC db1=new DataBaseCCC(driver);
-		System.out.println("Pass1");
-		String s1=db1.otp1;
-		System.out.println("otp1");
-		System.out.println("pass2");
-		System.out.println(s1);
-		System.out.println("pass3");
-		
+				// Reading OTP  from DB
+				DataBaseCCC db1=new DataBaseCCC(driver);
+				
+				String s1=db1.otp1;
+				System.out.println("otp1");
+			
+				System.out.println(s1);
+				System.out.println("Fetched OTP from the DB");
+				
+				log.info(s1+" Fetched OTP from the DB ");
+				etest.log(LogStatus.PASS,s1 +" Fetched OTP from the DB");
+				
+				
 		// Click on Login Button
 		helper.clickOnElement(driver, newlogin.getpasswordloginBtn());
 		Helper.customWait(5);
+		
+		// Handling the Deals and Offers pop which comes in production after login
+				newlogin.getdealsandoffers().click();
+				Helper.customWait(5);
 		
 				
 		// Click on FishAndSeaFood category
@@ -82,12 +91,20 @@ public class FishandSeafoodOtherWallets extends BaseTest {
 		home.getfishSeafoodCat().click();
 		Helper.customWait(4);
 		
+		log.info(" Clicked on fish and seafood category ");
+		etest.log(LogStatus.PASS, " Clicked on fish and seafood category ");
+
+
+		
 		// Add Basa_Fillet to cart
 		FishandSeafoodPage fishandseafoodPage =new FishandSeafoodPage(driver);
 		WebElement addtocart= fishandseafoodPage.getBasaFillet();
 		helper.scrollBar(driver, addtocart );
 		Helper.customWait(4);
 		System.out.println("pass");
+		
+		log.info(" Added product to cart ");
+		etest.log(LogStatus.PASS, " Added product to cart ");
 		
 		
 		// New Checkout flow
@@ -99,11 +116,20 @@ public class FishandSeafoodOtherWallets extends BaseTest {
 		cartloaded.getCheckoutBtn().click();
 		Helper.customWait(2);
 		
+		
+		log.info(" Proceed to checkout ");
+		etest.log(LogStatus.PASS, " Proceed to checkout ");
+
+
+		
 		// New Address Summary Page
 		NewAddressPage newAddressPage = new NewAddressPage(driver);
 		newAddressPage.getInd().click();
 		newAddressPage.getContinueBtn().click();
 		Helper.customWait(2);
+		
+		log.info(" Select Delivery Address ");
+		etest.log(LogStatus.PASS, " Select Delivery Address ");
 		
 		// New Delivery Summary page
 		//NewDeliverySummaryPage  newDeliverySummary = new NewDeliverySummaryPage(driver);
@@ -123,6 +149,11 @@ public class FishandSeafoodOtherWallets extends BaseTest {
 			System.out.println("Order Placing as Express Delivery");
 			newDeliverySummary.getProceedToPaymentBtn().click();	
 			Helper.customWait(2);
+			
+			log.info(" Order Placing as Express Delivery ");
+			etest.log(LogStatus.PASS, " Order Placing as Express Delivery ");
+
+
 		}
 		
 		else 
@@ -136,35 +167,28 @@ public class FishandSeafoodOtherWallets extends BaseTest {
 			Helper.customWait(2);
 			newDeliverySummary.getProceedToPaymentBtn().click();
 			Helper.customWait(2);
+			
+			log.info(" Order Placing as Scheduled Delivery ");
+			etest.log(LogStatus.PASS, " Order Placing as Scheduled Delivery ");
 		}
 		// New Payment Page
-		NewPaymentPage newPaymentPage = new NewPaymentPage(driver);
-		
-		// Pay through other wallets for example 
-		newPaymentPage.getpayThroughOtherWallets().click();
-		Helper.customWait(2);
-		newPaymentPage.getpayThroughAirtelmoney().click();
-		Helper.customWait(2);
-		newPaymentPage.getpayThroughOtherWalletsButton().click();
-		Helper.customWait(2);
-		
-		
-		// Store the current window handle
-		String winHandleBefore = driver.getWindowHandle();
-		// Perform the click operation that opens new window
-		// Switch to new window opened
-		for (String winHandle : driver.getWindowHandles()) 
-		{
-			driver.switchTo().window(winHandle);
-		}
-		RayzorpayPage success = new RayzorpayPage(driver);
-		driver.manage().window().maximize();
-		System.out.println("maximized");
-		success.getRayzorpayPage().click();
-		Helper.customWait(5);
-		System.out.println("Other Wallets Order Placed Sucessfully from Chicken Category");
-		// Switch back to original browser (first window)
-		driver.switchTo().window(winHandleBefore);
+				NewPaymentPage newPaymentPage = new NewPaymentPage(driver);
+				newPaymentPage.getPayOnDelivery().click();
+				Helper.customWait(2);
+				
+				//commenting the final payment to run on production
+				
+			//	newPaymentPage.getPlaceOrder().click();
+				Helper.customWait(5);
+						
+				System.out.println("Pay On Delivery Order Placed Sucessfully");
+				
+				
+				log.info(" Selected POD as payment mode ");
+				etest.log(LogStatus.PASS, " Selected POD as payment mode ");
+
+		log.info(" Order Placed Sucessfully with POD as payment mode ");
+				etest.log(LogStatus.PASS, " Order Placed Sucessfully with POD as payment mode ");
 							
 		
 	}

@@ -38,6 +38,44 @@ public class NewPaymentPage {
 	@FindBy(xpath="//div[@class='payment-cta']")
 	private WebElement paySavedCardButton;
 	
+	// UPI Elements
+	// UPI Payment Type
+	@FindBy(xpath="//li[@data-payname='upi']")
+	private WebElement payUsingUPIButton;
+	
+	// Select GPay in UPI
+	@FindBy(xpath="	(//img[@src='https://d2407na1z3fc0t.cloudfront.net/Banner/upi_gpay.png' ])[1]")
+	private WebElement selectGPay;
+	
+	//Enter the GPay Id
+	@FindBy(xpath="//input[@id='user-vpa']")
+	private WebElement enterGPayID;
+	
+	// Pay Button of UPI
+	@FindBy(xpath="//button[@data-mode='upi']")
+	private WebElement payUpiButton;
+	
+	
+	// Paytm Button
+	@FindBy(xpath="//li[@data-payname='paytm']")
+	private WebElement paytm;
+	
+	// Paytm Button
+	@FindBy(xpath="//li[@class='paytm-checkbox selected']")
+	private WebElement paytmRadioButton;
+	
+	
+	// Paytm Button
+		@FindBy(xpath="//button[@data-mode='paytm']")
+		private WebElement paytmPayButton;
+	
+	
+	
+	
+	
+	
+	
+	
 	// Credit and Debit card Elements
 	@FindBy(xpath="//li[@data-payname='card']")
 	private WebElement creditAndDebitCard;
@@ -147,5 +185,43 @@ public class NewPaymentPage {
 	public WebElement getpayThroughOtherWalletsButton(){
 		return payThroughOtherWalletsButton;
 	}
+	
+	// UPI Payment Type
+	public WebElement getpayUsingUPI(){
+		return payUsingUPIButton;
+	}
+	// Select GPay
+	public WebElement getGPayUPI() {
+		return selectGPay;
+	}
+	
+	//Entering the GPay ID
+	public WebElement getGpayId(){
+		return enterGPayID;
+	}
+	
+	// UPI Pay Button
+	public WebElement getPayUPIButton() {
+		return payUpiButton;
+	}
+	
+	
+	//  Paytm Button
+		public WebElement getPaytmButton() {
+			return paytm;
+		}
+		
+	//  Paytm Button
+			public WebElement getPaytmRadioButton() {
+				return paytmRadioButton;
+			}
+			
+		//  Paytm Button
+			public WebElement getPaytmPayButton() {
+				return paytmPayButton;
+			}
+		
+		
+	
 	
 }

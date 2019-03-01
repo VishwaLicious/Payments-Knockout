@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.licious.test.FishandSeafoodCreditAndDebitCards" hash-for-method="testfishandseafood">testfishandseafood</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.licious.test.PaymentTypeSavedCards" hash-for-method="testPaymentTypeSavedCards">testPaymentTypeSavedCards</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,23 +120,24 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">in.licious.test.FishandSeafoodCreditAndDebitCards</span>
+              <span class="class-name">in.licious.test.PaymentTypeSavedCards</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testfishandseafood">
-                  </a> <!-- testfishandseafood -->
-                  <span class="method-name">testfishandseafood</span>
-                  <div class="stack-trace">org.openqa.selenium.ScriptTimeoutException: script timeout: result was not received in 30 seconds
-  (Session info: chrome=72.0.3626.109)
+                  <a name="testPaymentTypeSavedCards">
+                  </a> <!-- testPaymentTypeSavedCards -->
+                  <span class="method-name">testPaymentTypeSavedCards</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=72.0.3626.119)
   (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;admins-MacBook-Pro-4.local&apos;, ip: &apos;fe80:0:0:0:14f5:8d5b:afd8:22e9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;1.8.0_191&apos;
+System info: host: &apos;admins-MacBook-Pro-4.local&apos;, ip: &apos;fe80:0:0:0:45b:b8af:3886:ab15%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/wy/zy0yyxw57mn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64054}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 067fafea1e92ae16336b67ba098a97ec
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/wy/zy0yyxw57mn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59791}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2e4081ead932d94a8284240d9c83be2b
+*** Element info: {Using=xpath, value=//button[.=&apos;Proceed&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -149,9 +150,22 @@ Session ID: 067fafea1e92ae16336b67ba098a97ec
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:555)
-	at in.licious.util.Helper.scrollBar(Helper.java:147)
-	at in.licious.test.FishandSeafoodCreditAndDebitCards.testfishandseafood(FishandSeafoodCreditAndDebitCards.java:88)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.toString(Unknown Source)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:685)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:227)
+	at in.licious.util.Helper.explicitWait(Helper.java:53)
+	at in.licious.util.Helper.clickOnElement(Helper.java:56)
+	at in.licious.test.PaymentTypeSavedCards.testPaymentTypeSavedCards(PaymentTypeSavedCards.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -186,7 +200,7 @@ Session ID: 067fafea1e92ae16336b67ba098a97ec
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/wy/zy0yyxw57mn5s40r_cj7_fz40000gp/T/testng-eclipse--755228194/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/wy/zy0yyxw57mn5s40r_cj7_fz40000gp/T/testng-eclipse-2112572512/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -195,7 +209,7 @@ Session ID: 067fafea1e92ae16336b67ba098a97ec
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;in.licious.test.FishandSeafoodCreditAndDebitCards&quot;/&gt;
+      &lt;class name=&quot;in.licious.test.PaymentTypeSavedCards&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -237,14 +251,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testfishandseafood')
-data.setCell(0, 2, 'in.licious.test.FishandSeafoodCreditAndDebitCards')
-data.setCell(0, 3, 69447);
+data.setCell(0, 1, 'testPaymentTypeSavedCards')
+data.setCell(0, 2, 'in.licious.test.PaymentTypeSavedCards')
+data.setCell(0, 3, 27361);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -270,33 +284,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">in.licious.test.FishandSeafoodCreditAndDebitCards</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">in.licious.test.PaymentTypeSavedCards</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initFramework</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">initGlobalConstants</span>
-                <span class="method-start">5169 ms</span>
+                <span class="method-start">5127 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void in.licious.test.FishandSeafoodCreditAndDebitCards.testfishandseafood() throws java.lang....)</span>
-                <span class="method-start">5183 ms</span>
+                <span class="method-name">setUp(public void in.licious.test.PaymentTypeSavedCards.testPaymentTypeSavedCards() throws java.lang.Class...)</span>
+                <span class="method-start">5138 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testfishandseafood</span>
-                <span class="method-start">14970 ms</span>
+                <span class="method-name">testPaymentTypeSavedCards</span>
+                <span class="method-start">20774 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testfishandseafood status=FAILURE method=FishandSeafoodCreditAndDebitCards.testfish...)</span>
-                <span class="method-start">85365 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=testPaymentTypeSavedCards status=FAILURE method=PaymentTypeSavedCards.testPaymentTy...)</span>
+                <span class="method-start">48971 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-suite after">
-                <span class="method-name">closeFramework</span>
-                <span class="method-start">90629 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

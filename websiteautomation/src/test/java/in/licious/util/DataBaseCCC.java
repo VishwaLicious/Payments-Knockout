@@ -20,7 +20,7 @@ public class DataBaseCCC {
 
 	
 		//public static void main(String[] args) throws ClassNotFoundException, SQLException {
-			System.out.println("Pass 11");
+		//	System.out.println("Pass 11");
 		
 			
 			
@@ -30,7 +30,7 @@ public class DataBaseCCC {
 			
 			//Class.forName("com.mysql.jdbc.Driver");
 			
-			System.out.println("Pass 22");
+		//	System.out.println("Pass 22");
 			
 			
 			// Dev DB Access for OTP
@@ -52,7 +52,7 @@ public class DataBaseCCC {
 				// Establishing DB connection for ORT
 				//con=DriverManager.getConnection(url, "webmaster", "Licious@121");
 			
-				System.out.println("Pass 33");
+				System.out.println("Successfully Established the connection with DataBase");
 				//ResultSet res = con.createStatement().executeQuery(" use licious");
 				ResultSet res1 = con.createStatement().executeQuery(" select otp from customers where phone='9880335493' ");
 				
@@ -64,12 +64,12 @@ public class DataBaseCCC {
 				   
 				  // System.out.println(otp);
 						   
-						   System.out.println(otp1);
+						   System.out.println(" The OTP for the Mobile Number 9880335493 is " + otp1);
 				  
 				}
 				
 				
-				System.out.println("Pass 44");
+				System.out.println("Successfully Fetched OTP from the DataBase");
 				
 				
 				//System.out.println(res1.getString(1));

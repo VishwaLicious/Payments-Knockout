@@ -137,7 +137,13 @@ public class Helper {
 	        {
 	            try
 	            {	
-	            	elementToFind.click();
+	            	//elementToFind.click();
+	            	
+	            	// Added to click the product which is behind the view order
+	            	JavascriptExecutor jse = (JavascriptExecutor) driver;
+	            	jse.executeScript("arguments[0].click()", elementToFind);
+	            	
+	            	
 	                break;
 	            }
 	            catch(Throwable t)

@@ -14,10 +14,19 @@ public class NewAddressPage extends BasePage {
 	// For Indiranagar Address
 	//@FindBy (xpath="//li[@data-addrstr='Thimma Reddy Layout, 27th Cross Rd, Kondappa Layout, Vignan Nagar, Doddanekundi, Kaggadasapura Yellammadevi Nilaya <br>Jana Jeeva Enclave Bangalore 9880335493']")
 	
+	
+	// Dev Ind Addr
 	@FindBy (xpath="//li[@data-addrstr=\"Thimma Reddy Layout, 27th Cross Rd, Kondappa Layout, Vignan Nagar, Doddanekundi, Kaggadasapura Yellammadevi Nilaya  Bangalore 9880335493\"]")
 	
+	// Get Prodution Address
+//	@FindBy(xpath="//li[@data-addrstr=\" 1st Cross Rd,  HAL 2nd Stage,  Indiranagar Test Order <br>Test Order Bengaluru 9880335493\"]")
 	
 	private WebElement ind;
+	
+	
+	private WebElement prodAddress;
+	
+	
 	
 	
 	@FindBy(xpath="//button[.=' Proceed to Shipment']")
@@ -39,6 +48,10 @@ public class NewAddressPage extends BasePage {
 	
 	public WebElement getContinueBtn(){
 		return continueBtn;
+	}
+	
+	public WebElement getProdAddr(){
+		return prodAddress;
 	}
 }
 
